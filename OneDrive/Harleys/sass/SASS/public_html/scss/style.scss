@@ -1,23 +1,23 @@
 //Variables
 
-$aqua:  #7FDBFF;
-$blue:  #0074D9;
-$navy:  #001F3F;
-$teal:  #39CCCC;
+$aqua: #7FDBFF;
+$blue: #0074D9;
+$navy: #001F3F;
+$teal: #39CCCC;
 $green: #2ECC40;
 $olive: #3D9970;
-$lime:  #01FF70;
+$lime: #01FF70;
 
-$yellow:  #FFDC00;
-$orange:  #FF851B;
-$red:     #FF4136;
+$yellow: #FFDC00;
+$orange: #FF851B;
+$red: #FF4136;
 $fuchsia: #F012BE;
-$purple:  #B10DC9;
-$maroon:  #85144B;
+$purple: #B10DC9;
+$maroon: #85144B;
 
-$white:  #FFFFFF;
+$white: #FFFFFF;
 $silver: #DDDDDD;
-$gray:   #AAAAAA;
+$gray: #AAAAAA;
 $black: #111111;
 
 $mainfont: Arial, Sans-serif;
@@ -38,21 +38,44 @@ a {
         color: $purple;
         }
         
+.content {
+        width: 90%;
+        max-width: 800px;
+        margin: 2em auto;
+}
         
-nav {
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+ header {
+        margin-bottom: 1.5em;
+            nav {
+                a {
+                    display: inline-block;
+                    padding: 1em;
+                    text-decoration: none;
+                    margin-right: 1em;
+                    border-radius: 5px;
+                    background: $aqua;
+                    color: $white;
+                }
+            
+                a:hover {
+                    background: $olive;
+                    text-decoration: none;
 
-    li { 
-        display: inline-block; 
-    }
+                }
+            }
+}
 
-  a {
-        display: block;
-        padding: 6px 12px;
-        text-decoration: none;
+.main {
+    article {
+        padding: 1.5em;
+        background: $white;
+        margin-bottom: 1.5em;
+        box-shadow: 5px 5px 2px #000;
+            h2 {
+                font-size: 20px;
+                color: $orange;
+
+            }
     }
+    
 }
