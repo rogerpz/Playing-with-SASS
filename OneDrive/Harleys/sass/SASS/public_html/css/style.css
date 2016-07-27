@@ -1,7 +1,23 @@
 body {
-  background: blue; }
+  background: #FFDC00;
+  font-family: Arial, Sans-serif;
+  color: #2ECC40; }
 
 .box h1 {
-  color: red; }
+  color: #F012BE; }
+
+a {
+  color: #B10DC9; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
